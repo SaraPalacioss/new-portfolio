@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 const Cover = () => {
     return ( 
-        <h1>Hi there, I am Sara Palacios</h1>
+        <Fragment>
+            <h1 className="cover-style">Hi there, I am Sara Palacios<br/>Full Stack Developer</h1>
+        </Fragment>
+
      );
 }
  
